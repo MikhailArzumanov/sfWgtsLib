@@ -17,7 +17,6 @@
       <Configuration>Release</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
-
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -53,25 +52,23 @@
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
-
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Label="Shared" >
+  <ImportGroup Label="Shared">
   </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
@@ -85,7 +82,6 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
-
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -94,7 +90,8 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <SubSystem></SubSystem>
+      <SubSystem>
+      </SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -108,7 +105,8 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <SubSystem></SubSystem>
+      <SubSystem>
+      </SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -122,7 +120,8 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <SubSystem></SubSystem>
+      <SubSystem>
+      </SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -136,14 +135,89 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <SubSystem></SubSystem>
+      <SubSystem>
+      </SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="animated_widget.hpp" />
+    <ClInclude Include="button_widget.hpp" />
+    <ClInclude Include="checkbox_widget.hpp" />
+    <ClInclude Include="ddmenu_option_widget.hpp" />
+    <ClInclude Include="ddmenu_widget.hpp" />
+    <ClInclude Include="image_button_widget.hpp" />
+    <ClInclude Include="image_widget.hpp" />
+    <ClInclude Include="point.hpp" />
+    <ClInclude Include="progress_bar_widget.hpp" />
+    <ClInclude Include="rect_widget.hpp" />
+    <ClInclude Include="scrollbox_widget.hpp" />
+    <ClInclude Include="slider_widget.hpp" />
+    <ClInclude Include="text_input_widget.hpp" />
+    <ClInclude Include="text_widget.hpp" />
+    <ClInclude Include="vertical_slider_widget.hpp" />
+    <ClInclude Include="widget.hpp" />
+    <ClInclude Include="window.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="animated_widget_constructors.cpp" />
+    <ClCompile Include="animated_widget_draw.cpp" />
+    <ClCompile Include="animated_widget_tick.cpp" />
+    <ClCompile Include="button_widget_constructors.cpp" />
+    <ClCompile Include="button_widget_on_click.cpp" />
+    <ClCompile Include="button_widget_set_text.cpp" />
+    <ClCompile Include="checkbox_draw.cpp" />
+    <ClCompile Include="checkbox_get_set_value.cpp" />
+    <ClCompile Include="checkbox_on_click.cpp" />
+    <ClCompile Include="checkbox_widget_constructors.cpp" />
+    <ClCompile Include="checkbox_widget_init_lines.cpp" />
+    <ClCompile Include="ddmenu_events.cpp" />
+    <ClCompile Include="ddmenu_option_widget_constructors.cpp" />
+    <ClCompile Include="ddmenu_option_widget_on_click.cpp" />
+    <ClCompile Include="ddmenu_show_hide.cpp" />
+    <ClCompile Include="ddmenu_widget_choose.cpp" />
+    <ClCompile Include="ddmenu_widget_constructors.cpp" />
+    <ClCompile Include="ddmenu_widget_on_change.cpp" />
+    <ClCompile Include="image_button_widget_constructors.cpp" />
+    <ClCompile Include="image_button_widget_on_click.cpp" />
+    <ClCompile Include="image_widget_constructors.cpp" />
+    <ClCompile Include="image_widget_draw.cpp" />
+    <ClCompile Include="image_widget_on_click.cpp" />
+    <ClCompile Include="point_operators.cpp" />
+    <ClCompile Include="progress_bar_widget_constructors.cpp" />
+    <ClCompile Include="progress_bar_widget_draw.cpp" />
+    <ClCompile Include="progress_bar_widget_set_ratio.cpp" />
+    <ClCompile Include="rect_widget_constructors.cpp" />
+    <ClCompile Include="rect_widget_draw.cpp" />
+    <ClCompile Include="scrollbox_widget_constructors.cpp" />
+    <ClCompile Include="scrollbox_widget_draw.cpp" />
+    <ClCompile Include="scrollbox_widget_events.cpp" />
+    <ClCompile Include="scrollbox_widget_process_click.cpp" />
+    <ClCompile Include="slider_widget_constructors.cpp" />
+    <ClCompile Include="slider_widget_draw.cpp" />
+    <ClCompile Include="slider_widget_on_click.cpp" />
+    <ClCompile Include="text_input_widget_constructors.cpp" />
+    <ClCompile Include="text_input_widget_draw.cpp" />
+    <ClCompile Include="text_input_widget_keypressed.cpp" />
+    <ClCompile Include="text_input_widget_set_value.cpp" />
+    <ClCompile Include="text_widget_constructors.cpp" />
+    <ClCompile Include="text_widget_draw.cpp" />
+    <ClCompile Include="text_widget_get_textrect.cpp" />
+    <ClCompile Include="text_widget_set_content.cpp" />
+    <ClCompile Include="text_widget_set_p.cpp" />
+    <ClCompile Include="vertical_slider_widget_constructors.cpp" />
+    <ClCompile Include="vertical_slider_widget_draw.cpp" />
+    <ClCompile Include="vertical_slider_widget_on_click.cpp" />
+    <ClCompile Include="widget_add_child.cpp" />
+    <ClCompile Include="widget_constructors.cpp" />
+    <ClCompile Include="widget_destructor.cpp" />
+    <ClCompile Include="widget_draw.cpp" />
+    <ClCompile Include="widget_process_click.cpp" />
+    <ClCompile Include="widget_set_visibility.cpp" />
+    <ClCompile Include="widget_tick.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
