@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
@@ -13,225 +9,301 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\widget">
+      <UniqueIdentifier>{94f2a62b-0d36-4a3c-b20a-c4ed82dfc5cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\widget\derivatives">
+      <UniqueIdentifier>{5722fe86-c65f-4010-938d-ae503f566550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\environment">
+      <UniqueIdentifier>{99a6920d-82b0-4ce1-bd47-ec1f1d9cdb68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\environment\structs">
+      <UniqueIdentifier>{d3663544-791e-4674-b0ee-1123f6534fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\widget">
+      <UniqueIdentifier>{f8d2487e-4cdd-463d-9091-5d4b6f4cc53b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget\direvatives">
+      <UniqueIdentifier>{de2c87af-1611-44a5-b0c5-bb9120d0a3dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget\direvatives\image_widget">
+      <UniqueIdentifier>{af5f801a-e1a0-4063-99b4-96e93975cac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget\direvatives\animated_widget">
+      <UniqueIdentifier>{8ae24a61-a75a-4047-8883-392320b7ccc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget\direvatives\button_widget">
+      <UniqueIdentifier>{e3b2867f-0fbb-49eb-b65a-3c926f26c1cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget\direvatives\checkbox_widget">
+      <UniqueIdentifier>{58fcc639-ccd2-4f06-bab3-287b966f0f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget\direvatives\ddmenu_option_widget">
+      <UniqueIdentifier>{4e7443c9-711d-4880-af68-9ec2fdb9ff37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget\direvatives\ddmenu_widget">
+      <UniqueIdentifier>{de043794-0789-4068-b7bb-f0b4a882193a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget\direvatives\image_button_widget">
+      <UniqueIdentifier>{2f36eb18-7b24-4525-ba9e-a3ecafcb848b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget\direvatives\verticla_slider">
+      <UniqueIdentifier>{edcafdd3-10b5-4acf-8582-5595eec82cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget\direvatives\text_widget">
+      <UniqueIdentifier>{1b496230-2d6c-445f-9ead-28a6fb65bd29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget\direvatives\text_input_widget">
+      <UniqueIdentifier>{55178794-b41e-461e-923e-f471d524356b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget\direvatives\slider_widget">
+      <UniqueIdentifier>{b9d15f5a-dfe3-42d5-bb66-662f62b2484f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget\direvatives\scrollbox_widget">
+      <UniqueIdentifier>{e4064272-c739-4cac-bde0-e1dace9ccaa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget\direvatives\rect_widget">
+      <UniqueIdentifier>{1aeef1e9-0da4-4d98-b942-29c5b990a997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget\direvatives\progress_bar_widget">
+      <UniqueIdentifier>{12425bfd-42c8-4a25-a1d0-cd6df5d77441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget\self">
+      <UniqueIdentifier>{e0b3bb7d-20d9-4220-ac9b-6b8812daef18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\environment">
+      <UniqueIdentifier>{e27a1ee1-2337-4ac1-89d7-eb9117387f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\environment\structs">
+      <UniqueIdentifier>{a5e61628-6d37-4a26-94ca-e693edc9e74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\environment\structs\point">
+      <UniqueIdentifier>{2fc7ae9a-c331-4832-8f63-d39521fe5507}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="animated_widget.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\widget\derivatives</Filter>
     </ClInclude>
     <ClInclude Include="button_widget.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\widget\derivatives</Filter>
     </ClInclude>
     <ClInclude Include="checkbox_widget.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\widget\derivatives</Filter>
     </ClInclude>
     <ClInclude Include="ddmenu_option_widget.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\widget\derivatives</Filter>
     </ClInclude>
     <ClInclude Include="ddmenu_widget.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\widget\derivatives</Filter>
     </ClInclude>
     <ClInclude Include="image_button_widget.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\widget\derivatives</Filter>
     </ClInclude>
     <ClInclude Include="image_widget.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="point.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\widget\derivatives</Filter>
     </ClInclude>
     <ClInclude Include="progress_bar_widget.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\widget\derivatives</Filter>
     </ClInclude>
     <ClInclude Include="rect_widget.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\widget\derivatives</Filter>
     </ClInclude>
     <ClInclude Include="scrollbox_widget.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\widget\derivatives</Filter>
     </ClInclude>
     <ClInclude Include="slider_widget.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\widget\derivatives</Filter>
     </ClInclude>
     <ClInclude Include="text_input_widget.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\widget\derivatives</Filter>
     </ClInclude>
     <ClInclude Include="text_widget.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\widget\derivatives</Filter>
     </ClInclude>
     <ClInclude Include="vertical_slider_widget.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\widget\derivatives</Filter>
     </ClInclude>
     <ClInclude Include="widget.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="point.hpp">
+      <Filter>Header Files\environment\structs</Filter>
     </ClInclude>
     <ClInclude Include="window.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\environment</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="animated_widget_constructors.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\animated_widget</Filter>
     </ClCompile>
     <ClCompile Include="animated_widget_draw.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\animated_widget</Filter>
     </ClCompile>
     <ClCompile Include="animated_widget_tick.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\animated_widget</Filter>
     </ClCompile>
     <ClCompile Include="button_widget_constructors.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\button_widget</Filter>
     </ClCompile>
     <ClCompile Include="button_widget_on_click.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\button_widget</Filter>
     </ClCompile>
     <ClCompile Include="button_widget_set_text.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\button_widget</Filter>
     </ClCompile>
     <ClCompile Include="checkbox_draw.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\checkbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="checkbox_get_set_value.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\checkbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="checkbox_on_click.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\checkbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="checkbox_widget_constructors.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\checkbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="checkbox_widget_init_lines.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ddmenu_events.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\checkbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="ddmenu_option_widget_constructors.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\ddmenu_option_widget</Filter>
     </ClCompile>
     <ClCompile Include="ddmenu_option_widget_on_click.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\ddmenu_option_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="ddmenu_events.cpp">
+      <Filter>Source Files\widget\direvatives\ddmenu_widget</Filter>
     </ClCompile>
     <ClCompile Include="ddmenu_show_hide.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\ddmenu_widget</Filter>
     </ClCompile>
     <ClCompile Include="ddmenu_widget_choose.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\ddmenu_widget</Filter>
     </ClCompile>
     <ClCompile Include="ddmenu_widget_constructors.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\ddmenu_widget</Filter>
     </ClCompile>
     <ClCompile Include="ddmenu_widget_on_change.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\ddmenu_widget</Filter>
     </ClCompile>
     <ClCompile Include="image_button_widget_constructors.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\image_button_widget</Filter>
     </ClCompile>
     <ClCompile Include="image_button_widget_on_click.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\image_button_widget</Filter>
     </ClCompile>
     <ClCompile Include="image_widget_constructors.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\image_widget</Filter>
     </ClCompile>
     <ClCompile Include="image_widget_draw.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\image_widget</Filter>
     </ClCompile>
     <ClCompile Include="image_widget_on_click.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="point_operators.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\image_widget</Filter>
     </ClCompile>
     <ClCompile Include="progress_bar_widget_constructors.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\progress_bar_widget</Filter>
     </ClCompile>
     <ClCompile Include="progress_bar_widget_draw.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\progress_bar_widget</Filter>
     </ClCompile>
     <ClCompile Include="progress_bar_widget_set_ratio.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\progress_bar_widget</Filter>
     </ClCompile>
     <ClCompile Include="rect_widget_constructors.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\rect_widget</Filter>
     </ClCompile>
     <ClCompile Include="rect_widget_draw.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\rect_widget</Filter>
     </ClCompile>
     <ClCompile Include="scrollbox_widget_constructors.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\scrollbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="scrollbox_widget_draw.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\scrollbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="scrollbox_widget_events.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\scrollbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="scrollbox_widget_process_click.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\scrollbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="slider_widget_constructors.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\slider_widget</Filter>
     </ClCompile>
     <ClCompile Include="slider_widget_draw.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\slider_widget</Filter>
     </ClCompile>
     <ClCompile Include="slider_widget_on_click.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\slider_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_input_widget_constructors.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\text_input_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_input_widget_draw.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\text_input_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_input_widget_keypressed.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\text_input_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_input_widget_set_value.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\text_input_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_widget_constructors.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\text_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_widget_draw.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\text_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_widget_get_textrect.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\text_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_widget_set_content.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\text_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_widget_set_p.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\text_widget</Filter>
     </ClCompile>
     <ClCompile Include="vertical_slider_widget_constructors.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\verticla_slider</Filter>
     </ClCompile>
     <ClCompile Include="vertical_slider_widget_draw.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\verticla_slider</Filter>
     </ClCompile>
     <ClCompile Include="vertical_slider_widget_on_click.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\direvatives\verticla_slider</Filter>
     </ClCompile>
     <ClCompile Include="widget_add_child.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\self</Filter>
     </ClCompile>
     <ClCompile Include="widget_constructors.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\self</Filter>
     </ClCompile>
     <ClCompile Include="widget_destructor.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\self</Filter>
     </ClCompile>
     <ClCompile Include="widget_draw.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\self</Filter>
     </ClCompile>
     <ClCompile Include="widget_process_click.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\self</Filter>
     </ClCompile>
     <ClCompile Include="widget_set_visibility.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\self</Filter>
     </ClCompile>
     <ClCompile Include="widget_tick.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\widget\self</Filter>
+    </ClCompile>
+    <ClCompile Include="point_operators.cpp">
+      <Filter>Source Files\environment\structs\point</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
