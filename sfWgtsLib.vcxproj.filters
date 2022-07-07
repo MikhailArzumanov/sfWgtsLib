@@ -52,9 +52,6 @@
     <Filter Include="Source Files\widget\direvatives\image_button_widget">
       <UniqueIdentifier>{2f36eb18-7b24-4525-ba9e-a3ecafcb848b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\widget\direvatives\verticla_slider">
-      <UniqueIdentifier>{edcafdd3-10b5-4acf-8582-5595eec82cf7}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\widget\direvatives\text_widget">
       <UniqueIdentifier>{1b496230-2d6c-445f-9ead-28a6fb65bd29}</UniqueIdentifier>
     </Filter>
@@ -84,6 +81,9 @@
     </Filter>
     <Filter Include="Source Files\environment\structs\point">
       <UniqueIdentifier>{2fc7ae9a-c331-4832-8f63-d39521fe5507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget\direvatives\vertical_slider">
+      <UniqueIdentifier>{edcafdd3-10b5-4acf-8582-5595eec82cf7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -273,13 +273,13 @@
       <Filter>Source Files\widget\direvatives\text_widget</Filter>
     </ClCompile>
     <ClCompile Include="vertical_slider_widget_constructors.cpp">
-      <Filter>Source Files\widget\direvatives\verticla_slider</Filter>
+      <Filter>Source Files\widget\direvatives\vertical_slider</Filter>
     </ClCompile>
     <ClCompile Include="vertical_slider_widget_draw.cpp">
-      <Filter>Source Files\widget\direvatives\verticla_slider</Filter>
+      <Filter>Source Files\widget\direvatives\vertical_slider</Filter>
     </ClCompile>
     <ClCompile Include="vertical_slider_widget_on_click.cpp">
-      <Filter>Source Files\widget\direvatives\verticla_slider</Filter>
+      <Filter>Source Files\widget\direvatives\vertical_slider</Filter>
     </ClCompile>
     <ClCompile Include="widget_add_child.cpp">
       <Filter>Source Files\widget\self</Filter>
@@ -304,6 +304,12 @@
     </ClCompile>
     <ClCompile Include="point_operators.cpp">
       <Filter>Source Files\environment\structs\point</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Source Files\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="vertical_slider_widget_destructor.cpp">
+      <Filter>Source Files\widget\direvatives\vertical_slider</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

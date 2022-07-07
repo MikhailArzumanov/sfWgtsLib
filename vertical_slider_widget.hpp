@@ -15,5 +15,6 @@ namespace sfWgts {
 		VerticalSliderWidget();
 		VerticalSliderWidget(Widget* parent_, void (*onchange_)(Widget*, float), point dims_, point p_);
 		VerticalSliderWidget(Widget* parent_, sf::Color slider_color, sf::Color line_color, void (*onchange_)(Widget*, float), point dims_, point p_);
+		~VerticalSliderWidget();
 	};
 }

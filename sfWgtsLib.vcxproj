@@ -215,6 +215,7 @@
     <ClCompile Include="text_widget_set_content.cpp" />
     <ClCompile Include="text_widget_set_p.cpp" />
     <ClCompile Include="vertical_slider_widget_constructors.cpp" />
+    <ClCompile Include="vertical_slider_widget_destructor.cpp" />
     <ClCompile Include="vertical_slider_widget_draw.cpp" />
     <ClCompile Include="vertical_slider_widget_on_click.cpp" />
     <ClCompile Include="widget_add_child.cpp" />
@@ -224,6 +225,7 @@
     <ClCompile Include="widget_process_click.cpp" />
     <ClCompile Include="widget_set_visibility.cpp" />
     <ClCompile Include="widget_tick.cpp" />
+    <ClCompile Include="window.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
